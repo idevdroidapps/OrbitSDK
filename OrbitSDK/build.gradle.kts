@@ -44,7 +44,7 @@ publishing{
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/idevdroidapps/orbit")
+            url = uri("https://maven.pkg.github.com/idevdroidapps/OrbitSDK")
             credentials {
                 username = gitHubUser
                 password = gitHubKey
