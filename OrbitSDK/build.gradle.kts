@@ -9,7 +9,7 @@ plugins {
 
 val orbitGroup = "com.campbell"
 val orbitArtifact = "orbit"
-val orbitVersion = "0.0.1"
+val orbitVersion = "0.0.2"
 
 var gitHubUser = ""
 var gitHubKey = ""
