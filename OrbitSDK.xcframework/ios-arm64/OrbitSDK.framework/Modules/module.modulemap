@@ -1,8 +1,0 @@
-framework module OrbitSDK {
-    umbrella header "OrbitSDK.h"
-
-    export *
-    module * { export * }
-
-    use Foundation
-}
