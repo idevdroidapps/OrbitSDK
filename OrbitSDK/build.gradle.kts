@@ -88,6 +88,9 @@ kotlin {
         targetPlatforms {
             iOS { v("16") }
         }
+        distributionMode {
+            remote("https://github.com/idevdroidapps/OrbitSDK")
+        }
     }
 }
 
