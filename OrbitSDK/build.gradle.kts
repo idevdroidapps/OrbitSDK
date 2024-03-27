@@ -88,7 +88,7 @@ kotlin {
         targetPlatforms {
             iOS { v("16") }
         }
-        outputDirectory(File(projectDir.parentFile, "swiftpackage"))
+        outputDirectory(File("../"))
     }
 }
 
