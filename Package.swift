@@ -1,10 +1,10 @@
-// swift-tools-version:5.10
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
     name: "OrbitSDK",
     platforms: [
-        .iOS(.v17.4)
+        .iOS(.v17)
     ],
     products: [
         .library(
