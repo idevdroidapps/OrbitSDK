@@ -9,7 +9,7 @@ plugins {
 
 val orbitGroup = "com.campbell"
 val orbitArtifact = "orbit"
-val orbitVersion = "0.0.2"
+val orbitVersion = "0.0.3"
 
 var gitHubUser = ""
 var gitHubKey = ""
@@ -88,7 +88,7 @@ kotlin {
         targetPlatforms {
             iOS { v("16") }
         }
-        outputDirectory(File("../"))
+        outputDirectory(File(rootDir, "/"))
     }
 }
 
